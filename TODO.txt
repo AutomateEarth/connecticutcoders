@@ -1,1 +1,18 @@
 /** ADD TODOS HERE **/
+
+/* CULTURE */
+1) Meeting new people
+2) Educational and Learning Environment 
+
+// RULES FOR MEMBERS INCLUDED ON THE SITE
+1) 50% attendance
+2) Create/Maintain your own code
+
+PRIORITY TODOs (Short-term)
+
+Tasks:
+- Drop "Coders" to another line and make both "Connecticut" and "Coders" fill the width
+- Create an element to embed Youtube introduction video below bio but inside of container
+
+Ursula
+1) - Use bootstrap to syle card
