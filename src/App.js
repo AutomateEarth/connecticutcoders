@@ -1,5 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
+import Profile from './reuseableComponents/Profile';
+import { Button } from 'react-bootstrap';
 import headshotTest from './images/headshot-test.jpg';
 
 const Header = styled.h1`
@@ -49,7 +51,7 @@ const App = () => {
                 <div>
                     <h3>Connecticut Codes was created in 2021.. blah blah blah</h3>
                 </div>
-                <Container>
+                {/* <Container>
                     <ImgContainer>
                         <HeadshotImage src={headshotTest} alt="Connecticut Codes member" />
                     </ImgContainer>
@@ -58,13 +60,15 @@ const App = () => {
                     <p>Software development related media links</p>
                     <p>Embedded Video</p>
                 </Container>
-                <p>Add card-like elements that bring users to a separate personal page with more information about a specific member. From there, users have an option to go to the portfolio, contact directly, or visit social media.</p>
+                <p>Add card-like elements that bring users to a separate personal page with more information about a specific member. From there, users have an option to go to the portfolio, contact directly, or visit social media.</p> */}
             </main>
             <footer>
                 <p>Contact Information</p>
                 <p>Group email</p>
                 <p>Group phone number</p>
             </footer>
+            <Profile />
+            
         </div>
     );
 }
