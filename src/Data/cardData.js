@@ -13,21 +13,21 @@ const cardInfo = [
     {
         name: "Jim", 
         image: jim, 
-        bio: "He\"s awesome too, almost as cool as Urs.",
+        bio: "He\"s awesome too",
         github: "https://github.com/danyll39", 
         learnMore: "http://ursalalindsey.com"
     },
     {
         name: "Justin L.", 
         image: justin, 
-        bio: "He like Brock hampton and making mlk websites",
+        bio: "Justin I great!",
         github: "https://github.com/danyll39", 
         learnMore: "http://ursalalindsey.com"
     },
     {
         name: "Bryon", 
         image: "#", 
-        bio: "Is starting a coding bootcamp and not wasting 10 grand on one", 
+        bio: "Hell Im Bryon", 
         github: "https://github.com/danyll39", 
         learnMore: "http://ursalalindsey.com"
     },

@@ -43,11 +43,11 @@ const App = () => {
             <Header>
                 <BrandName>Connecticut<BrandSpan>Coders</BrandSpan></BrandName>
             </Header>
-            {/* <main>
+            <main>
                 <div>
                     <h3>Connecticut Codes was created in 2021.. blah blah blah</h3>
                 </div>
-                <Container>
+                {/* <Container>
                     <ImgContainer>
                         <HeadshotImage src={headshotTest} alt="Connecticut Codes member" />
                     </ImgContainer>
@@ -56,17 +56,15 @@ const App = () => {
                     <p>Software development related media links</p>
                     <p>Embedded Video</p>
                 </Container>
-                <p>Add card-like elements that bring users to a separate personal page with more information about a specific member. From there, users have an option to go to the portfolio, contact directly, or visit social media.</p>
+                <p>Add card-like elements that bring users to a separate personal page with more information about a specific member. From there, users have an option to go to the portfolio, contact directly, or visit social media.</p> */}
             </main>
             <footer>
                 <p>Contact Information</p>
                 <p>Group email</p>
                 <p>Group phone number</p>
-            </footer> */}
+            </footer>
             <Profile />
-            <Button variant="primary" size="lg">
-                Large button
-            </Button>
+            
         </div>
     );
 }
