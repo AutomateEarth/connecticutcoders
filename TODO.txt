@@ -11,8 +11,9 @@
 PRIORITY TODOs (Short-term)
 
 Tasks:
-- Drop "Coders" to another line and make both "Connecticut" and "Coders" fill the width
 - Create an element to embed Youtube introduction video below bio but inside of container
 
 Ursula
-1) - Use bootstrap to syle card
+- Use bootstrap to syle card
+
+Jim

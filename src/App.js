@@ -4,17 +4,20 @@ import headshotTest from './images/headshot-test.jpg';
 
 const Header = styled.h1`
     padding: 15px;
-`;
-
-const BrandName = styled.h1`
+    text-align: center;
     font-weight: 200;
-    font-size: 2rem;
+    font-family: arial;
     letter-spacing: 0.1rem;
-
 `;
 
-const BrandSpan = styled.span`
-    font-weight: 800;
+const BrandConnecicut = styled.h1`
+    font-weight: 100;
+    font-size: 3rem;
+`;
+
+const BrandCoders = styled.h1`
+    font-weight: 900;
+    font-size: 5rem;
 `;
 
 const Container = styled.div`
@@ -39,7 +42,8 @@ const App = () => {
     return (
         <div>
             <Header>
-                <BrandName>Connecticut<BrandSpan>Coders</BrandSpan></BrandName>
+                <BrandConnecicut>Connecticut</BrandConnecicut>
+                <BrandCoders>Coders</BrandCoders>
             </Header>
             <main>
                 <div>
