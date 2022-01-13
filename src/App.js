@@ -1,5 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
+import Profile from './reuseableComponents/Profile';
+import { Button } from 'react-bootstrap';
 import headshotTest from './images/headshot-test.jpg';
 
 const Header = styled.h1`
@@ -41,7 +43,7 @@ const App = () => {
             <Header>
                 <BrandName>Connecticut<BrandSpan>Coders</BrandSpan></BrandName>
             </Header>
-            <main>
+            {/* <main>
                 <div>
                     <h3>Connecticut Codes was created in 2021.. blah blah blah</h3>
                 </div>
@@ -60,7 +62,11 @@ const App = () => {
                 <p>Contact Information</p>
                 <p>Group email</p>
                 <p>Group phone number</p>
-            </footer>
+            </footer> */}
+            <Profile />
+            <Button variant="primary" size="lg">
+                Large button
+            </Button>
         </div>
     );
 }
