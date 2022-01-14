@@ -1,5 +1,6 @@
 import { Card, Container, ListGroup, ListGroupItem } from 'react-bootstrap';
-import cardInfo from '../Data/cardData';
+import cardInfo from '../data/CardData';
+
 function Profile() {
     const renderCard = (card, index) => {
         return (

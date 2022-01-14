@@ -12,8 +12,15 @@ PRIORITY TODOs (Short-term)
 
 Tasks:
 - Create an element to embed Youtube introduction video below bio but inside of container
+- Create essential package list
 
 Ursula
 - Use bootstrap to syle card
 
 Jim
+
+Justin L
+
+Bryon
+
+Justin D
