@@ -13,7 +13,7 @@ const HomePage = () => {
             <main>   
                 <Profile/>
             </main>
-            <p>bugar</p>
+            
             <footer align="center">
                 <br/>
                 <p><b>Contact Information</b></p>

@@ -6,7 +6,7 @@ import ProfilePage from './pages/ProfilePage'
 import ContactPage from './pages/ContactPage'
 import Error404Page from './pages/Error404Page'
 
-import { Header, BrandConnecticut, BrandCoders, Container, ImgContainer, HeadshotImage } from './Styles'
+import { Header, BrandConnecticut, BrandCoders, Container, ImgContainer, HeadshotImage } from './styles'
 
 
 const App = () => {
