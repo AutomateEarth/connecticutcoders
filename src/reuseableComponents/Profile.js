@@ -1,5 +1,6 @@
 import { Card, Container, ListGroup, ListGroupItem } from 'react-bootstrap';
-import cardInfo from '../Data/CardData';
+import { BsGithub, BsStackOverflow } from 'react-icons/bs';
+import cardInfo from '../Data/cardData';
 
 function Profile() {
     const renderCard = (card, index) => {
@@ -20,8 +21,9 @@ function Profile() {
                         <ListGroupItem>Vestibulum at eros</ListGroupItem>
                     </ListGroup> */}
                         <Card.Body>
-                            <Card.Link href={card.learnMore}>Learn More About Me!</Card.Link>
-                            <Card.Link href={card.github}>Github</Card.Link>
+                            <Card.Link href={card.learnMore}>Personal Projects</Card.Link>
+                            <Card.Link href={card.github}><BsGithub /></Card.Link>
+                            <Card.Link href={card.stackoverflow}><BsStackOverflow /></Card.Link>
                         </Card.Body>
                     </div>
                 </Card>
