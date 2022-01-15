@@ -29,7 +29,7 @@ export default function HomePage() {
                                 <ListGroupItem>Vestibulum at eros</ListGroupItem>
                             </ListGroup> */}
                                 <Card.Body>
-                                    {card.hasPortfolio ? <Card.Link href={card.learnMore}>Portfolio</Card.Link> : null}         
+                                    {card.hasPortfolio ? <Card.Link href={card.learnMore}>{card.learnMore}</Card.Link> : null}         
                                     <Card.Link href={card.github}><BsGithub /></Card.Link>
                                     <Card.Link href={card.stackoverflow}><BsStackOverflow /></Card.Link>
                                 </Card.Body>
