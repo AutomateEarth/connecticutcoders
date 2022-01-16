@@ -1,7 +1,3 @@
-import ursala from '../images/headshot-test.jpg'
-import jim from '../images/jimPhoto.jpeg'
-import justin from '../images/justinPhoto.jpeg'
-
 const cardInfo = [
     {
         name: "Ursala", 
